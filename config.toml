@@ -1,0 +1,19 @@
+baseurl = "/"
+languageCode = "en-us"
+
+title = "Selling a dream..."
+theme = "ghostwriter-master"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Selling a dream..."
+    description = "from a moody adolescent..."
+    github = "https://github.com/XXX"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+    publishDir = "docs"
+
+[Permalinks]
+    post = "/:filename/"
